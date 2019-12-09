@@ -7,10 +7,22 @@ class App extends Component {
 			<div className="App">
 				<CatComponent />
 				<EinsteinQuoteComponent />
-				{/* one more component missing */}
+				<MouseComponent />
 			</div>
 		);
 	}
+}
+
+class CatComponent extends Component {
+
+}
+
+class EinsteinQuoteComponent extends Component {
+	
+}
+
+class MouseComponent extends Component {
+	
 }
 
 export default App;
